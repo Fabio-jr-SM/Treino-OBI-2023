@@ -24,7 +24,7 @@ int main(void) {
     
      int date1,date2,date3;
     
-    scanf("%d %d %d",&date1,&date2,&date3);
+    scanf("%d%d%d",&date1,&date2,&date3);
     
     if(date1>=date2 && date1<=date3){
         printf("%d",date1);
@@ -32,7 +32,7 @@ int main(void) {
         printf("%d",date1);
         
         
-    } if(date2>=date1 && date2<=date3){
+    } else if(date2>=date1 && date2<=date3){
         printf("%d",date2);
     } else if(date2<=date1 && date2>=date3){
         printf("%d",date2);
